@@ -1,0 +1,30 @@
+Script started on 2026-01-25 13:56:59-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ ^[[200~echo "Hello and welcome to the new quarter!"~[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mecho "Hello and welcome to the new quarter!"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "Hello and welcome to the new quarter!"
+[?2004lHello and welcome to the new quarter!
+[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ [7mdate[27mdate
+[?2004lSun Jan 25 13:57:39 PST 2026
+[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ [7mecho $HOME[27mecho $HOME
+[?2004l/home/kmska
+[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ [7mcd ~[27mcd ~
+[?2004l[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ ls
+[?2004lhw1.problem1
+[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ mkdir temp
+[?2004l[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ mv temp tm[Kemp_new
+[?2004l[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ cd temp_new
+[?2004l[?2004h]0;kmska@Masonry1: ~/temp_new[01;32mkmska@Masonry1[00m:[01;34m~/temp_new[00m$ cd tem[K[K[K[K[K[Ktouch file5
+[?2004l[?2004h]0;kmska@Masonry1: ~/temp_new[01;32mkmska@Masonry1[00m:[01;34m~/temp_new[00m$ mv file56[K test
+[?2004l[?2004h]0;kmska@Masonry1: ~/temp_new[01;32mkmska@Masonry1[00m:[01;34m~/temp_new[00m$ cd ..
+[?2004l[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ rm -r temp_new
+[?2004l[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ echo :[K"i[KIt';[Ks a secre[K[Kret!" > secretfile
+[?2004l[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ chmod a-w secretfile
+[?2004l[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ ls -l secretfile
+[?2004l-r--r--r-- 1 kmska kmska 15 Jan 25 13:58 secretfile
+[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ [7mcat >> secretfile[27mcat >> secretfile
+[?2004lbash: secretfile: Permission denied
+[?2004h]0;kmska@Masonry1: ~[01;32mkmska@Masonry1[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-01-25 14:00:03-08:00 [COMMAND_EXIT_CODE="1"]
