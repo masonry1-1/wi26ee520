@@ -37,6 +37,3 @@ Linear Regression:
 2. Computes slope and intercept using Least Squares method
 3. Calculates R², MSE, and MAE
 4. Saves regression visualization with fitted line
-
-
-End of README
