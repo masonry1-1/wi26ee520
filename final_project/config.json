@@ -1,0 +1,178 @@
+{
+  "name": "Leader Follower Train",
+  "ip": "0.0.0.0",
+  "port": 8765,
+  "buttons": [
+    {
+      "name": "add_follower",
+      "label": "Add Follower",
+      "style": {
+        "background": "#dff0ff",
+        "border-color": "#356b8c"
+      }
+    },
+    {
+      "name": "toggle_pause",
+      "label": "Pause / Resume",
+      "style": {
+        "background": "#f9f0c1",
+        "border-color": "#8c7a35"
+      }
+    }
+  ],
+  "agents": [
+    {
+      "definition": "defs/leader.json",
+      "style": {
+        "fill": "#6ad36a",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -250,
+        "y": -150,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/follower.json",
+      "style": {
+        "fill": "#9ec9ff",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -310,
+        "y": -150,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/follower.json",
+      "style": {
+        "fill": "#9ec9ff",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -370,
+        "y": -150,
+        "theta": 0
+      }
+    },
+    {
+      "definition": "defs/follower.json",
+      "style": {
+        "fill": "#9ec9ff",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -430,
+        "y": -150,
+        "theta": 0
+      }
+    }
+  ],
+  "references": [
+    {
+      "definition": "defs/follower.json",
+      "style": {
+        "fill": "#9ec9ff",
+        "stroke": "black"
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "theta": 0
+      }
+    }
+  ],
+  "invisibles": [
+    {
+      "definition": "defs/coordinator.json"
+    }
+  ],
+  "statics": [
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "none"
+      },
+      "shape": [
+        { "x": -400, "y": -250 },
+        { "x": -400, "y": 250 },
+        { "x": -390, "y": 250 },
+        { "x": -390, "y": -250 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "none"
+      },
+      "shape": [
+        { "x": 400, "y": -250 },
+        { "x": 400, "y": 250 },
+        { "x": 390, "y": 250 },
+        { "x": 390, "y": -250 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "none"
+      },
+      "shape": [
+        { "x": -400, "y": 250 },
+        { "x": 400, "y": 250 },
+        { "x": 400, "y": 240 },
+        { "x": -400, "y": 240 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "none"
+      },
+      "shape": [
+        { "x": -400, "y": -250 },
+        { "x": 400, "y": -250 },
+        { "x": 400, "y": -240 },
+        { "x": -400, "y": -240 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "#777",
+        "stroke": "none"
+      },
+      "shape": [
+        { "x": -90, "y": -80 },
+        { "x": -90, "y": 80 },
+        { "x": -70, "y": 80 },
+        { "x": -70, "y": -80 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "#777",
+        "stroke": "none"
+      },
+      "shape": [
+        { "x": 70, "y": -80 },
+        { "x": 70, "y": 80 },
+        { "x": 90, "y": 80 },
+        { "x": 90, "y": -80 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "#777",
+        "stroke": "none"
+      },
+      "shape": [
+        { "x": -90, "y": -10 },
+        { "x": 90, "y": -10 },
+        { "x": 90, "y": 10 },
+        { "x": -90, "y": 10 }
+      ]
+    }
+  ]
+}
