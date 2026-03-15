@@ -31,10 +31,10 @@ class LeaderController : public Process, public AgentInterface {
         if ( paused ) {
             track_velocity(0, 0);
             label("Leader (paused)", 18, 18);
-            emit(Event("leader_state", {
+            emit(Event("leader_state", json{
                 {"x", x()},
                 {"y", y()},
-                {"theta", theta()},
+                {"theta", angle()},
                 {"paused", true}
             }));
             return;
@@ -63,10 +63,10 @@ class LeaderController : public Process, public AgentInterface {
         decorate("<circle cx='0' cy='0' r='3' style='fill: #004d00'></circle>");
         label("Leader", 18, 18);
 
-        emit(Event("leader_state", {
+        emit(Event("leader_state", json{
             {"x", x()},
             {"y", y()},
-            {"theta", theta()},
+            {"theta", angle()},
             {"paused", false}
         }));
     }
