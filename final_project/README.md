@@ -39,3 +39,12 @@ enviro_leader_follower_project/
     ├── leader.cc
     ├── leader.h
 
+How to run:
+
+cd final_project
+docker run -p 80:80 -p 8765:8765 -v ${PWD}:/source -it klavins/enviro:v1.61 bash
+cd /source
+make
+esm start
+enviro
+Open with http://localhost
