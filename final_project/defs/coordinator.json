@@ -1,0 +1,6 @@
+{
+  "name": "Coordinator",
+  "type": "invisible",
+  "description": "Invisible process that handles buttons and project-wide coordination",
+  "controller": "lib/coordinator.so"
+}
