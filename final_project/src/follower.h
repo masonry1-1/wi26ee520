@@ -14,10 +14,10 @@ class FollowerController : public Process, public AgentInterface {
 
     void init() {
         watch("leader_state", [&](Event& e) {
-            leader_x = e.value()["x"];
-            leader_y = e.value()["y"];
-            leader_theta = e.value()["theta"];
-            leader_paused = e.value()["paused"];
+            leader_x = e.value()["x"].get<double>();
+            leader_y = e.value()["y"].get<double>();
+            leader_theta = e.value()["theta"].get<double>();
+            leader_paused = e.value()["paused"].get<bool>();
         });
     }
 
