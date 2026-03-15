@@ -1,0 +1,46 @@
+{
+  "name": "Leader",
+  "type": "dynamic",
+  "description": "Leader robot that drives a looping route",
+  "shape": [
+    { "x": -12, "y": 10 },
+    { "x": 10, "y": 10 },
+    { "x": 14, "y": 0 },
+    { "x": 10, "y": -10 },
+    { "x": -12, "y": -10 }
+  ],
+  "friction": {
+    "collision": 3,
+    "linear": 18,
+    "rotational": 220
+  },
+  "sensors": [
+    {
+      "type": "range",
+      "location": { "x": 14, "y": 0 },
+      "direction": 0
+    },
+    {
+      "type": "range",
+      "location": { "x": 4, "y": 9 },
+      "direction": 0.78539816339
+    },
+    {
+      "type": "range",
+      "location": { "x": 4, "y": -9 },
+      "direction": -0.78539816339
+    },
+    {
+      "type": "range",
+      "location": { "x": 0, "y": 10 },
+      "direction": 1.57079632679
+    },
+    {
+      "type": "range",
+      "location": { "x": 0, "y": -10 },
+      "direction": -1.57079632679
+    }
+  ],
+  "mass": 0.5,
+  "controller": "lib/leader.so"
+}
