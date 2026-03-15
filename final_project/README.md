@@ -1,4 +1,4 @@
-# Leader Follower Train (Enviro Final Project)
+# Leader Follower Train
 
 This project is an Enviro / Elma simulation of a leader robot driving a looping route while a train of follower robots tries to maintain spacing behind it. The project is designed to satisfy the course final-project requirement to use Enviro in a substantial way.
 
